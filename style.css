@@ -1,0 +1,82 @@
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+body {
+  font-family: 'Koh Santepheap', cursive;
+  background-color: antiquewhite;
+  color:#4c3f92
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.8;
+}
+
+img{
+  border-radius: 25px;
+  box-shadow: 0 2px #999;
+}
+
+h2, h3, h4 {
+  font-size: 20px;
+}
+button {
+  background-color: rgba(60, 123, 11, .3);
+  padding: 5px 5px;
+  font-size: 16px;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+ul{
+  font-size: 16px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-stuff {
+  background: rgba(209, 156, 86, .5);
+  border-radius: 15px;
+  padding: 30px 30px;
+  box-shadow: 0 3px #999;
+}
+
+.container-smaller {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.container-bigger {
+  width: 800px;
+  margin: 10px auto;
+}
+
+.master-container{
+  justify-content: center;
+}
